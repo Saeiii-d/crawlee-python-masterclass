@@ -29,7 +29,7 @@ In this module, we implement a decoupled crawling architecture. Instead of a sin
 1. **Clone & Environment**:
    ```bash
    git clone https://github.com/Saeiii-d/crawlee-python-series.git
-   cd crawlee-python-series
+   cd Part-1-Foundation/
    python -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
    ```
