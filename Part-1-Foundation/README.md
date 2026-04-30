@@ -3,11 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Crawlee](https://img.shields.io/badge/Powered%20by-Crawlee-green.svg)](https://crawlee.dev/)
 
-This repository contains the starter code for the first part of my technical series on building scalable data collection systems. The goal of this installment is to transition from "scripts" to "systems" using the Crawlee framework.
-
-## Overview
-
-   In this module, we implement a decoupled crawling architecture. Instead of a single monolithic script, we use a Router-based approach to handle different page types (Listings vs. Products) with unique logic for each.
+In this module, we implement a decoupled crawling architecture. Instead of a single monolithic script, we use a Router-based approach to handle different page types (Listings vs. Products) with unique logic for each.
 
 ## Technical Features
 
