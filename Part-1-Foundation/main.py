@@ -11,13 +11,13 @@ async def main():
 
     logger.add(
         log_filename,
-        format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | <blue>{name}</blue>:<blue>{function}</blue>:<blue>{line}</blue> - <level>{message}</level>",
+        format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | {name}:{function}:{line} - <level>{message}</level>",
         encoding="utf-8",
     )
 
     logger.add(
         sys.stderr,
-        format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | <blue>{name}</blue>:<blue>{function}</blue>:<blue>{line}</blue> - <level>{message}</level>",
+        format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | {name}:{function}:{line} - <level>{message}</level>",
         level="INFO",
     )
 
