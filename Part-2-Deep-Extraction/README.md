@@ -1,8 +1,8 @@
 # Resilient Web Crawling Series: Part 2 — Deep Extraction & Pagination
 
+[⬅️ Back to Main Series](../README.md)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Crawlee](https://img.shields.io/badge/Powered%20by-Crawlee-green.svg)](https://crawlee.dev/)
-[⬅️ Back to Main Series](../README.md)
 
 Part 2 focuses on real-world resilience. We move beyond basic titles to extract full product schemas—including pricing, variants, and availability—while implementing automated navigation through paginated categories.
 
