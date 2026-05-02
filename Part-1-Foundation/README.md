@@ -54,4 +54,4 @@ In this module, we implement a decoupled crawling architecture. Instead of a sin
 ## Connect with Me
    - **GitHub:** https://github.com/Saeiii-d
    - **Medium**: https://medium.com/@saeiiid.khazaei
-   - **LinkedIn**: https://ir.linkedin.com/in/saeid-khazaei-a14b52406
+   - **LinkedIn**: https://www.linkedin.com/in/saeidkhazaei/
