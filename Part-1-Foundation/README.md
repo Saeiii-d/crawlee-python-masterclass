@@ -1,7 +1,6 @@
 # Resilient Web Crawling Series: Part 1 - Building a Modular Crawlee Architecture
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![Crawlee](https://img.shields.io/badge/Powered%20by-Crawlee-green.svg)](https://crawlee.dev/)
+[⬅️ Back to Main Series](../README.md)
 
 In this module, we implement a decoupled crawling architecture. Instead of a single monolithic script, we use a Router-based approach to handle different page types (Listings vs. Products) with unique logic for each.
 

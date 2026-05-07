@@ -1,5 +1,8 @@
 # Resilient Web Crawling & Data Engineering Masterclass
 
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Crawlee](https://img.shields.io/badge/Powered%20by-Crawlee-green.svg)](https://crawlee.dev/)
+
 Welcome to the complete source code for my web crawling series. This repository documents a journey from basic HTML parsing to building industrial-scale, production-ready data pipelines. Throughout this series, we utilize the Crawlee for Python framework to build modular, maintainable, and highly efficient crawlers.
 
 ## Series Roadmap
