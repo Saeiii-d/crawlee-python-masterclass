@@ -47,8 +47,7 @@ While Part 3 uses Playwright, Part 4 intentionally pivots back to a Hybrid Appro
 
 ```Bash
 git clone https://github.com/Saeiii-d/crawlee-python-masterclass.git
-cd crawlee-python-masterclass
-Install Dependencies:
+cd crawl_series
 ```
 
 2. Install dependencies:
