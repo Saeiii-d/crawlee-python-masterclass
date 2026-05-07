@@ -24,34 +24,6 @@ In this module, we implement a decoupled crawling architecture. Instead of a sin
    └── README.md        
    ```
 
-## Setup & Usage
-
-1. **Clone & Environment**:
-   ```bash
-   git clone https://github.com/Saeiii-d/crawlee-python-series.git
-   cd Part-1-Foundation/
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   ```
-   
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Crawler**:
-   ```bash
-   python main.py
-   ```
-
-
 ## Key Takeaways from Part 1
 * **Separation of Concerns**: By defining a `default_handler` for discovery and a `PRODUCT` handler for extraction, the code remains clean and maintainable.
 * **Link Enqueueing**: Demonstrated the use of CSS selectors to filter and enqueue relevant links while ensuring uniqueness to prevent infinite loops.
-
----
-
-## Connect with Me
-   - **GitHub:** https://github.com/Saeiii-d
-   - **Medium**: https://medium.com/@saeiiid.khazaei
-   - **LinkedIn**: https://www.linkedin.com/in/saeidkhazaei/
