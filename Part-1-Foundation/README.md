@@ -20,7 +20,6 @@ In this module, we implement a decoupled crawling architecture. Instead of a sin
    ```text
    ├── main.py          # Entry point: Initializes the crawler and logging
    ├── routes.py        # Logic Layer: Defines how different URLs are
-   ├── requirements.txt 
    └── README.md        
    ```
 
