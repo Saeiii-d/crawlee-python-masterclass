@@ -19,7 +19,6 @@ Part 2 focuses on real-world resilience. We move beyond basic titles to extract 
    ```text
    ├── main.py        # Entry point: Configured for bulk crawls (1000 requests)
    ├── routes.py      # Logic Layer: Detailed handlers for Discovery, Categories, and Products
-   ├── requirements.txt
    └── README.md       
    ```
 
