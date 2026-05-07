@@ -8,7 +8,7 @@ Welcome to the complete source code for my web crawling series. This repository 
 | 01   | Static Parsing         | BeautifulSoup, Crawlee                      | Basic Extractors       | Current                |
 | 02   | Scaling & Routing      | Router Pattern, Request Queues              | Multi-Page Scraping    | Current                |
 | 03   | Browser Automation     | Playwright, Infinite Scroll                 | Torob Marketplace      | Current                |
-| 04   | Industrial Hybrid      | API Interception, AIOHTTP                   | Mashhad Leather        | View Part 4 Repo     |
+| 04   | Industrial Hybrid      | API Interception, AIOHTTP                   | Mashhad Leather        | [View Part 4 Repo](https://github.com/Saeiii-d/mashhad-leather-crawler)     |
 
 
 ## Part 1 & 2: Foundations & Scaling
@@ -78,6 +78,6 @@ Detailed breakdowns of the engineering logic behind these codes can be found on 
 
 ## Connect with me:
 
-* *LinkedIn*: Saeid Khazaei
+* *LinkedIn*: [Saeid Khazaei](https://www.linkedin.com/in/saeidkhazaei/)
 
-* *GitHub*: @Saeiii-d
+* *GitHub*: [@Saeiii-d](https://github.com/Saeiii-d)
