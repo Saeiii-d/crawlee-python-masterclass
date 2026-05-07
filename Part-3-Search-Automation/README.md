@@ -16,7 +16,7 @@ In Part 3, we leave static HTML behind to tackle modern, JavaScript-heavy Single
 
 - **Human-Like Headers**: Setting realistic User-Agents to avoid early detection by anti-bot systems.
 
-- **Dynamic Wait States**: Utilizing wait_for_load_state("networkidle") to ensure asynchronous content is fully rendered before extraction begins.
+- **Dynamic Wait States**: Utilizing wait_for_load_state("`networkidle`") to ensure asynchronous content is fully rendered before extraction begins.
 
 - **Persian Character Normalization**: A helper function to convert Persian digits and currency formatting into clean, storage-ready integers.
 
