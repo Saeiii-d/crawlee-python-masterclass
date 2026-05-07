@@ -52,7 +52,7 @@ cd crawl_series
 
 2. Install dependencies:
 ```Bash
-pip install crawlee[all] aiohttp loguru rich
+pip install crawlee[all] aiohttp loguru rich hashlib
 ```
 
 ```Bash
