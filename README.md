@@ -14,9 +14,9 @@ Welcome to the complete source code for my web crawling series. This repository 
 ## Part 1 & 2: Foundations & Scaling
 The first two modules focus on the transition from simple scripts to organized architectures. We introduce the Router Pattern, allowing us to separate logic for homepages, category listings, and product details.
 
-### Key Learning: Handling pagination and deep-linking without spaghetti code.
+**Key Learning**: Handling pagination and deep-linking without spaghetti code.
 
-### Deduplication: Implementing unique keys to ensure we never scrape the same page twice.
+**Deduplication**: Implementing unique keys to ensure we never scrape the same page twice.
 
 ## Part 3: Mastering the Dynamic Web (Torob)
 Modern websites are often Single Page Applications (SPAs) that require a browser to "render" the data. This module tackles Torob, a JavaScript-heavy marketplace.
@@ -26,7 +26,6 @@ Modern websites are often Single Page Applications (SPAs) that require a browser
 |-------------------------|-------------|
 | Browser Orchestration   | Automating search bar interactions with Playwright, typing queries like a real user. |
 | Infinite Scroll Logic   | Custom scroll manager watching item counts & network idle to detect stagnation. |
-| URL Canonicalization    | Cleaning UTM/session tokens & sorting params to ensure stable SKU generation. |
 
 
 ## Part 4: The Capstone — High-Performance Hybrid (Mashhad Leather)
@@ -52,6 +51,7 @@ cd crawlee-python-masterclass
 Install Dependencies:
 ```
 
+2. Install dependencies:
 ```Bash
 pip install crawlee[all] aiohttp loguru rich xxhash
 ```
@@ -60,7 +60,7 @@ pip install crawlee[all] aiohttp loguru rich xxhash
 playwright install chromium
 ```
 
-2. Run a Module:
+3. Run a Module:
 ```Bash
 python main.py
 ```
