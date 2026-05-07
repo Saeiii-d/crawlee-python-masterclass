@@ -23,26 +23,6 @@ Part 2 focuses on real-world resilience. We move beyond basic titles to extract 
    └── README.md       
    ```
 
-## Setup & Usage
-
-1. **Clone & Environment**:
-   ```bash
-   git clone https://github.com/Saeiii-d/crawlee-python-series.git
-   cd Part-1-Foundation/
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   ```
-   
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Crawler**:
-   ```bash
-   python main.py
-   ```
-
 
 ## Key Takeaways from Part 2
 * **State Management**: By labeling routes as `CATEGORY` and `PRODUCT`, we maintain a clean execution flow across thousands of URLs.
@@ -50,10 +30,3 @@ Part 2 focuses on real-world resilience. We move beyond basic titles to extract 
 * **Data Integrity**: Using hashing for SKUs ensures that your dataset remains consistent even when the source website is missing primary keys or using localized placeholders like `"نامعلوم"`.
 
 * **Observability**: Every extraction failure or missing field is logged with context using `loguru`, allowing for easy data quality audits after a massive crawl.
-
----
-
-## Connect with Me
-   - **GitHub:** https://github.com/Saeiii-d
-   - **Medium**: https://medium.com/@saeiiid.khazaei
-   - **LinkedIn**: https://www.linkedin.com/in/saeidkhazaei/
