@@ -70,13 +70,13 @@ python main.py
 ## Articles & Tutorials
 Detailed breakdowns of the engineering logic behind these codes can be found on my Medium profile:
 
-* **Part 1**:
+* **Part 1**: [part 1](https://medium.com/@saeiiid.khazaei/stop-writing-scraping-scripts-start-building-data-systems-02cf1a9e1c69)
 
-* **Part 2**:
+* **Part 2**: [part 2](https://medium.com/@saeiiid.khazaei/beyond-the-basics-handling-recursive-pagination-and-deep-extraction-45d57bb8dc87)
 
-* **Part 3**: 
+* **Part 3**: [part 3](https://medium.com/@saeiiid.khazaei/teaching-a-crawler-to-think-playwright-infinite-scroll-and-search-automation-db594ffa9773)
 
-* **Part 4**: 
+* **Part 4**: []()
 
 ## Connect with me:
 
