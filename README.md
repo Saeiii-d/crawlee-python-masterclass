@@ -1,6 +1,6 @@
 # Resilient Web Crawling & Data Engineering Masterclass
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Crawlee](https://img.shields.io/badge/Powered%20by-Crawlee-green.svg)](https://crawlee.dev/)
 
 This repository contains the source code for a four-part web crawling series. It demonstrates a progression from basic HTML extraction to modular routing, pagination, browser automation, and hybrid HTML/API data collection using Crawlee for Python.
@@ -12,7 +12,7 @@ This repository contains the source code for a four-part web crawling series. It
 | 01   | Static Parsing             | BeautifulSoup, Crawlee         | Basic Extractors    | Current                                                                 |
 | 02   | Scaling & Routing          | Router Pattern, Request Queues | Multi-Page Scraping | Current                                                                 |
 | 03   | Browser Automation         | Playwright, Infinite Scroll    | Torob Marketplace   | Current                                                                 |
-| 04   | Hybrid HTML/API Extraction | API Interception, AIOHTTP      | Mashhad Leather     | [View Part 4 Repo](https://github.com/Saeiii-d/mashhad-leather-crawler) |
+| 04   | Hybrid HTML/API Extraction | Direct API Requests, AIOHTTP   | Mashhad Leather     | [View Part 4 Repo](https://github.com/Saeiii-d/mashhad-leather-crawler) |
 
 ## Part 1 & 2: Foundations & Scaling
 
@@ -33,7 +33,7 @@ Modern websites are often Single Page Applications (SPAs) that require a browser
 | Browser Orchestration | Automating search bar interactions with Playwright, typing queries like a real user. |
 | Infinite Scroll Logic | Custom scroll manager watching item counts & network idle to detect stagnation.      |
 
-## Part 4: The Capstone — High-Performance Hybrid (Mashhad Leather)
+## Part 4: Hybrid HTML/API Extraction — Mashhad Leather
 
 _Note: This project is hosted in a separate repository because it is a larger standalone example with its own dependencies and documentation._
 
@@ -41,12 +41,12 @@ While Part 3 uses Playwright, Part 4 intentionally pivots back to a Hybrid Appro
 
 ### Why Use a Hybrid Crawling Approach?
 
-| Feature                  | Why It Matters                                                                  |
-| ------------------------ | ------------------------------------------------------------------------------- |
-| API Interception         | Skip UI rendering and talk directly to internal endpoints for huge speed gains. |
-| Variant‑Level Modeling   | Dataclasses model Colors, Sizes, and live Stock with clarity and accuracy.      |
-| Speed & Efficiency       | No more Playwright bottlenecks → ultra‑fast crawling with minimal RAM.          |
-| Production Observability | Loguru + Rich enable clean logs, clear dashboards, and debuggable pipelines.    |
+| Feature                  | Why It Matters                                                                     |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| Direct API Requests      | Retrieves variant data without rendering the complete user interface.              |
+| Variant-Level Modeling   | Dataclasses represent colors, sizes, prices, and stock in a structured format.     |
+| Reduced Browser Overhead | Avoiding browser rendering can reduce resource usage for supported data endpoints. |
+| Logging and Monitoring   | Loguru and Rich provide readable logs and terminal progress information.           |
 
 ## Installation & Setup
 
@@ -56,7 +56,7 @@ While Part 3 uses Playwright, Part 4 intentionally pivots back to a Hybrid Appro
 git clone https://github.com/Saeiii-d/crawlee-python-masterclass.git
 cd crawlee-python-masterclass
 
-python -m venv .venv # On Windows: venv\Scripts\activate
+python -m venv .venv # On Windows: .venv\Scripts\Activate.ps1
 ```
 
 2. Install dependencies:
@@ -69,14 +69,9 @@ playwright install
 3. Run a Module:
 
 ```Bash
-cd Part-1-Foundation
-python main.py
-
-cd Part-2-Deep-Extraction
-python main.py
-
-cd Part-3-Search-Automation
-python main.py
+python Part-1-Foundation/main.py
+python Part-2-Deep-Extraction/main.py
+python Part-3-Search-Automation/main.py
 ```
 
 ## Articles & Tutorials
@@ -89,7 +84,7 @@ Detailed breakdowns of the engineering logic behind these codes can be found on 
 
 - **Part 3**: [teaching a crawler to think playwright infinite scroll and search automation](https://medium.com/@saeiiid.khazaei/teaching-a-crawler-to-think-playwright-infinite-scroll-and-search-automation-db594ffa9773)
 
-- **Part 4**: [building a high performance hybrid web crawler with api interception](https://medium.com/@saeiiid.khazaei/building-a-high-performance-hybrid-web-crawler-with-api-interception-3d3e357da55b)
+- **Part 4**: [building a high performance hybrid web crawler with Direct API Requests](https://medium.com/@saeiiid.khazaei/building-a-high-performance-hybrid-web-crawler-with-api-interception-3d3e357da55b)
 
 ## Connect with me:
 
