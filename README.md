@@ -56,7 +56,7 @@ While Part 3 uses Playwright, Part 4 intentionally pivots back to a Hybrid Appro
 git clone https://github.com/Saeiii-d/crawlee-python-masterclass.git
 cd crawlee-python-masterclass
 
-python -m venv .venv
+python -m venv .venv # On Windows: venv\Scripts\activate
 ```
 
 2. Install dependencies:
