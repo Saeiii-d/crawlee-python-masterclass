@@ -84,7 +84,7 @@ Detailed breakdowns of the engineering logic behind these codes can be found on 
 
 - **Part 3**: [teaching a crawler to think playwright infinite scroll and search automation](https://medium.com/@saeiiid.khazaei/teaching-a-crawler-to-think-playwright-infinite-scroll-and-search-automation-db594ffa9773)
 
-- **Part 4**: [building a high performance hybrid web crawler with Direct API Requests](https://medium.com/@saeiiid.khazaei/building-a-high-performance-hybrid-web-crawler-with-api-interception-3d3e357da55b)
+- **Part 4**: [Building a Hybrid Web Crawler with Direct API Requests](https://medium.com/@saeiiid.khazaei/building-a-high-performance-hybrid-web-crawler-with-api-interception-3d3e357da55b)
 
 ## Connect with me:
 
