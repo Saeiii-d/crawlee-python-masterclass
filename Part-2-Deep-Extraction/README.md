@@ -6,7 +6,7 @@ Part 2 focuses on real-world resilience. We move beyond basic titles to extract 
 
 ## Advanced Technical Features
 
-- **Recursive Pagination**: Automatically detects and enqueues "Next Page" links to Automatically detects and enqueues "Next Page" links to traverse paginated category archives.
+- **Recursive Pagination**: Automatically detects and enqueues "Next Page" links to traverse paginated category archives.
 - **Data Normalization & Fallbacks**:
   - Implements SHA-1 hashing via `hashlib` to generate deterministic SKUs when a target site provides "Unknown" or missing identifiers.
   - Uses `datetime.utcnow()` to timestamp every record for production-ready data pipelines.
