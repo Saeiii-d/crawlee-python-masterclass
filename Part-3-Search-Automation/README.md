@@ -10,11 +10,11 @@ In Part 3, we leave static HTML behind to tackle modern, JavaScript-heavy Single
 
 - **Infinite Scroll Logic**: Implementing a robust while loop that scrolls, waits for network idle states, and monitors item counts to prevent "stagnation" and infinite loops.
 
-- **Deterministic Hashing**: A fallback SKU generation system using MD5 hashing on cleaned URLs for products that lack a clear unique identifier.
+- **Deterministic Hashing**: A fallback SKU generation system using MD5 hashing on product URLs when a clear identifier cannot be extracted.
 
 ## Advanced Features
 
-- **Human-Like Headers**: Setting realistic User-Agents to avoid early detection by anti-bot systems.
+- **Human-Like Headers**: Applies a browser-like User-Agent to subsequent page requests.
 
 - **Dynamic Wait States**: Utilizing wait_for_load_state("`networkidle`") to ensure asynchronous content is fully rendered before extraction begins.
 
@@ -22,12 +22,13 @@ In Part 3, we leave static HTML behind to tackle modern, JavaScript-heavy Single
 
 ## Project Structure
 
-   ```text
-   ├── main.py          # Entry point: Initializes the crawler and logging
-   ├── routes.py        # Logic Layer: Defines how different URLs are
-   └── README.md        
-   ```
+```text
+├── main.py          # Entry point: Initializes the crawler and logging
+├── routes.py        # Logic Layer: Defines how different URLs are
+└── README.md
+```
 
 ## Key Takeaways
-* **Interaction Over Navigation**: Sometimes data isn't at a URL; it's behind a button or a search query.
-* **The Cost of JS**: While Playwright is powerful, it is significantly more resource-intensive than BeautifulSoup—use it strategically.
+
+- **Interaction Over Navigation**: Sometimes data isn't at a URL; it's behind a button or a search query.
+- **The Cost of JS**: While Playwright is powerful, it is significantly more resource-intensive than BeautifulSoup—use it strategically.
