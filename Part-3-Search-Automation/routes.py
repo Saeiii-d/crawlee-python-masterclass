@@ -1,9 +1,9 @@
 # part 3 routes.py
-from crawlee.crawlers import PlaywrightCrawler, PlaywrightCrawlingContext
+from crawlee.crawlers import PlaywrightCrawlingContext
 from crawlee.router import Router
 from crawlee import Request
 from loguru import logger
-from urllib.parse import urlparse, parse_qs, urlunparse, urlencode
+from urllib.parse import urlparse, parse_qs
 import re
 import hashlib
 from datetime import datetime

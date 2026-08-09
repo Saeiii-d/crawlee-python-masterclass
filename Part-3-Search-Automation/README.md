@@ -8,15 +8,15 @@ In Part 3, we leave static HTML behind to tackle modern, JavaScript-heavy Single
 
 - **Automated Search Interaction**: Programmatically identifying and filling search inputs to navigate marketplaces that don't use traditional category links.
 
-- **Infinite Scroll Logic**: Implementing a robust while loop that scrolls, waits for network idle states, and monitors item counts to prevent "stagnation" and infinite loops.
+- **Infinite Scroll Logic**: Implements a bounded loop that scrolls, waits for network activity, and monitors product counts to stop when no new items are loaded.
 
 - **Deterministic Hashing**: A fallback SKU generation system using MD5 hashing on product URLs when a clear identifier cannot be extracted.
 
 ## Advanced Features
 
-- **Human-Like Headers**: Applies a browser-like User-Agent to subsequent page requests.
+- **Browser-Like User-Agent**: Applies a desktop Chrome-style User-Agent to the browser page before performing the search interaction.
 
-- **Dynamic Wait States**: Utilizing wait_for_load_state("`networkidle`") to ensure asynchronous content is fully rendered before extraction begins.
+- **Dynamic Wait States**: Utilizing `wait_for_load_state("networkidle")` to ensure asynchronous content is fully rendered before extraction begins.
 
 - **Persian Character Normalization**: A helper function to convert Persian digits and currency formatting into clean, storage-ready integers.
 
