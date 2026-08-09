@@ -9,7 +9,7 @@ Part 2 focuses on real-world resilience. We move beyond basic titles to extract 
 - **Recursive Pagination**: Automatically detects and enqueues "Next Page" links to traverse paginated category archives.
 - **Data Normalization & Fallbacks**:
   - Implements SHA-1 hashing via `hashlib` to generate deterministic SKUs when a target site provides "Unknown" or missing identifiers.
-  - Uses `datetime.utcnow()` to timestamp every record for production-ready data pipelines.
+  - Uses `datetime.utcnow()` to add a UTC timestamp to every extracted record for tracking and downstream processing.
 - **Complex Attribute Parsing**: Extracts nested variant data (Colors and Sizes) from HTML tables by traversing structured div and table elements.
 - **Dynamic Sale Logic**: Distinguishes between original prices and discounted prices by detecting specific CSS classes like price-on-sale.
 - **Defensive Crawling**: Uses localized exception handling for link enqueueing and explicit fallbacks and `loguru` warnings for missing product fields.
