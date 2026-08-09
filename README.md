@@ -14,7 +14,7 @@ This repository contains the source code for a four-part web crawling series bui
 | 03   | Search & Infinite Scroll           | Crawlee, Playwright                    | Torob Marketplace       |
 | 04   | Hybrid HTML/API Extraction         | Crawlee, BeautifulSoup, aiohttp        | Mashhad Leather         |
 
-Part 4 is maintained as a separate standalone repository because it has its own dependencies and documentation.
+Part 4 is maintained as a [separate standalone repository](https://github.com/Saeiii-d/mashhad-leather-crawler) because it has its own dependencies and documentation.
 
 ## Part 1 & 2: Foundations & Scaling
 
@@ -39,7 +39,7 @@ Some websites depend on JavaScript and browser interaction for important parts o
 
 _Note: This project is hosted in a separate repository because it is a larger standalone example with its own dependencies and documentation._
 
-While Part 3 uses Playwright, Part 4 intentionally pivots back to a hybrid approach to reduce browser-rendering overhead by requesting variant data directly from the site's internal endpoints.
+While Part 3 uses Playwright, Part 4 intentionally pivots to a hybrid approach that reduces browser-rendering overhead by requesting variant data directly from the site's internal endpoints.
 
 ### Why Use a Hybrid Crawling Approach?
 
