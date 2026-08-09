@@ -16,7 +16,7 @@ In Part 3, we leave static HTML behind to tackle modern, JavaScript-heavy Single
 
 - **Browser-Like User-Agent**: Applies a desktop Chrome-style User-Agent to the browser page before performing the search interaction.
 
-- **Dynamic Wait States**: Utilizing `wait_for_load_state("networkidle")` to ensure asynchronous content is fully rendered before extraction begins.
+- **Dynamic Wait States**: Uses `wait_for_load_state("networkidle")` during scrolling to wait for network activity to settle before triggering the next interaction.
 
 - **Persian Character Normalization**: A helper function to convert Persian digits and currency formatting into clean, storage-ready integers.
 
