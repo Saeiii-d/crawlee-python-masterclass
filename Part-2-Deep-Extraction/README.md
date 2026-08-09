@@ -12,7 +12,7 @@ Part 2 focuses on real-world resilience. We move beyond basic titles to extract 
   - Uses `datetime.utcnow()` to timestamp every record for production-ready data pipelines.
 - **Complex Attribute Parsing**: Extracts nested variant data (Colors and Sizes) from HTML tables by traversing structured div and table elements.
 - **Dynamic Sale Logic**: Distinguishes between original prices and discounted prices by detecting specific CSS classes like price-on-sale.
-- **Defensive Crawling**: Uses nested try-except blocks and `loguru` warnings to ensure the crawler continues running even if individual elements or links are missing.
+- **Defensive Crawling**: Uses localized exception handling for link enqueueing and explicit fallbacks and `loguru` warnings for missing product fields.
 
 ## Project Structure
 
@@ -24,8 +24,8 @@ Part 2 focuses on real-world resilience. We move beyond basic titles to extract 
 
 ## Key Takeaways from Part 2
 
-- **State Management**: By labeling routes as `CATEGORY` and `PRODUCT`, we maintain a clean execution flow across thousands of URLs.
+- **State Management**: By labeling routes as `CATEGORY` and `PRODUCT`, we maintain a clean execution flow across many URLs.
 
 - **Data Integrity**: Using hashing for SKUs ensures that your dataset remains consistent even when the source website is missing primary keys or using localized placeholders like `"نامعلوم"`.
 
-- **Observability**: Every extraction failure or missing field is logged with context using `loguru`, allowing for easy data quality audits after a massive crawl.
+- **Observability**: Important extraction issues and missing fields are logged with URL context using `loguru`, making crawl behavior and data-quality problems easier to inspect.
