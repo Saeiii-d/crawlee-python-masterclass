@@ -29,7 +29,7 @@ async def main():
     crawler = PlaywrightCrawler(
         request_handler=router,
         headless=False,  # Set to False to watch the interaction (perfect for tutorials)
-        browser_type='chromium',  # Use Firefox browser
+        browser_type='chromium', 
         max_requests_per_crawl=1000,  # Limit the number of requests for testing
         request_handler_timeout=timedelta(seconds=60),  # 60 seconds timeout for each request
     )
